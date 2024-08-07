@@ -5,8 +5,8 @@ export const GlobalStyle = createGlobalStyle`
     min-height: 100%;
   }
   body {
-    background: ${(props) => props.theme.colors.gray900};
-    color: ${(props) => props.theme.colors.gray600};
+    background: ${(props) => props.theme.colors.carbonDark};
+    color: ${(props) => props.theme.colors.champagne};
     font-family: ${(props) => props.theme.fontFamily.sans};
     padding: 1rem;
   }
