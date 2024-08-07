@@ -19,7 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run git-commit && react-scripts build",
+    "git-commit": "git add . && git commit -m 'Atualizando alterações' && git push git@github.com:Jumendess/api-github.git master",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{js,jsx}",
