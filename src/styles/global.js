@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     background: ${(props) => props.theme.colors.carbonDark};
     color: ${(props) => props.theme.colors.champagne};
     font-family: ${(props) => props.theme.fontFamily.sans};
-    padding: 1rem;
+
   }
 
   h1, h2, h3, h4, h5, h6 {

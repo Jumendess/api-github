@@ -1,8 +1,18 @@
 import React from 'react'
+import Profile from './Profile'
+import { Container, Sidebar, Main } from './styles'
+
 
 function ReposotoriesPage() {
   return (
-    <h1> Repositorios</h1>
+    <Container>
+      <Sidebar>
+        <Profile />
+      </Sidebar>
+      <Main>
+        Main
+      </Main>
+    </Container>
   )
 }
 
