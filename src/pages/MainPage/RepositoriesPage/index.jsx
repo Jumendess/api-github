@@ -1,6 +1,7 @@
 import React from 'react'
-import Profile from './Profile'
-import { Container, Sidebar, Main } from './styles'
+import Profile from './Profile';
+import Filter from './Filter';
+import { Container, Sidebar, Main } from './styles';
 
 
 function ReposotoriesPage() {
@@ -8,11 +9,13 @@ function ReposotoriesPage() {
     <Container>
       <Sidebar>
         <Profile />
+        <Filter />
       </Sidebar>
       <Main>
         Main
       </Main>
     </Container>
+
   )
 }
 
